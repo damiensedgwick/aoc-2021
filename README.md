@@ -2,7 +2,7 @@
 
 Maybe Golang, maybe JavaScript... Maybe nothing at all.
 
-The [Changelog](https://github.com/damiensedgwick/aoc-2021/changelog) will contain solution updates including language used and how to run the solution.
+The [Changelog](https://github.com/damiensedgwick/aoc-2021/blob/main/changelog.md) will contain solution updates including language used and how to run the solution.
 
 Wish me luck!
 
