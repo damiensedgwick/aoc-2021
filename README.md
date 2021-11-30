@@ -6,4 +6,4 @@ The [Changelog](https://github.com/damiensedgwick/aoc-2021/changelog) will conta
 
 Wish me luck!
 
-![Merry Christmas ya filthy animal](https://github.com/damiensedgwick/aoc-2021/.github/images/homealone.gif)
+![Merry Christmas ya filthy animal](https://github.com/damiensedgwick/aoc-2021/blob/main/.github/images/homealone.gif)
