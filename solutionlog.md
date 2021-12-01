@@ -1,3 +1,5 @@
 # Changelog (Solutions)
 
-Below are my solutions, what I wrote them in and how to run them.
+Below are the solutions I managed to complete.
+
+#### Day 1: Parts 1 and 2 ⭐️⭐️
