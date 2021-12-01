@@ -1,6 +1,6 @@
 # 🎄🌟 Attempted Advent of Code 2021 🌟🎄
 
-Maybe Golang, maybe JavaScript... Maybe nothing at all.
+Written in Golang because I like to inflict pain upon myself.
 
 The [Solutions log](https://github.com/damiensedgwick/aoc-2021/blob/main/solutionlog.md) will contain solution updates including language used and how to run the solution.
 
