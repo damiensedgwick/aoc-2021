@@ -68,6 +68,34 @@ func CalculateInstructions(input []map[string]int) map[string]int {
 	return m
 }
 
+func CalculateInstructionsWithAim(input []map[string]int) map[string]int {
+	m := map[string]int{
+		"horizontal": 0,
+		"depth":      0,
+	}
+
+	aim := 0
+
+	for _, o := range input {
+		for key, value := range o {
+			switch key {
+			case "down":
+				aim = aim + value
+			case "up":
+				aim = aim - value
+			case "forward":
+				m["horizontal"] += value
+
+				if aim != 0 {
+					m["depth"] = m["depth"] + aim*value
+				}
+			}
+		}
+	}
+
+	return m
+}
+
 func MultiplyPosition(m map[string]int) int {
 	return m["horizontal"] * m["depth"]
 }
@@ -82,6 +110,17 @@ func PartOne() int {
 	return result
 }
 
+func PartTwo() int {
+	input := LoadInput("input.txt")
+	sum := CalculateInstructionsWithAim(input)
+	result := MultiplyPosition(sum)
+
+	fmt.Printf("Part Two: %d \n", result)
+
+	return result
+}
+
 func main() {
 	PartOne()
+	PartTwo()
 }

@@ -44,6 +44,15 @@ func TestCalculateInstructions(t *testing.T) {
 	}, CalculateInstructions(input))
 }
 
+func TestCalculateInstructionsWithAim(t *testing.T) {
+	input := LoadInput("input_test.txt")
+
+	assert.Equal(t, map[string]int{
+		"horizontal": 15,
+		"depth":      60,
+	}, CalculateInstructionsWithAim(input))
+}
+
 func TestMultiplyPosition(t *testing.T) {
 	input := LoadInput("input_test.txt")
 	m := CalculateInstructions(input)
